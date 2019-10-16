@@ -1,13 +1,8 @@
-import React, { Component } from 'react'
-import { Button } from 'reactstrap';
-
+import React, { Component } from "react";
+import Login from "./pages/login/Login";
 
 export default class App extends Component {
   render() {
-    return (
-      <div>
-        <Button>Hai</Button>
-      </div>
-    )
+    return <Login />;
   }
 }
